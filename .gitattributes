@@ -1,7 +1,33 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<!DOCTYPE html>
+<html>
 
-footer class="pie">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  Ordenar 
+
+  <div class ="principal">
+     
+  <div class ="div_imagen">
+   <img src="Images/logo/loto-flower-loto.png"
+     alt=""/>
+  </div>
+    
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+  
+</body>
+  
+<footer>
+  footer <class="pie">
         <div class="headerPie">
             <div class="logo">
                 <img src="img/loto-flower-loto.png" alt="logo">
@@ -51,22 +77,21 @@ footer class="pie">
                 <a href="#">MercadoPago</a>
             </div>
             <div>
-                <h2>Suscríbete </h2>
+                <h2>Suscríbete</h2>
                 <p>Recibi nuestras ofertas y novedades educativas</p>
                 <br>
-                <form action="" id="form_suscripcion">
+                <form action=" " id="form_suscripcion">
                     <input type="text" id="correo" placeholder="Escribe tu Email">
                     <input type="button" class="btn btn-success" id="boton_contacto" value="Enviar" onclick="validarCorreo(form.correo.value)"/>
                   </form>
             </div>
         </div>
         <div class="derechos">
-            <p> Copyright@2023 UNLB - All right reserved</p>
+            <p>Copyright@2023 UNLB - All right reserved</p>
             <p>Developed by TEAM ELEVEN </p>
-            <p>Privacy Policy - <a href="#" target="_blank">Terms and conditions</a></p>
+            <p>Privacy Policy - Terms and conditions</a></p>
         </div>
+    
     </footer>
-</body>
-<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-<script src="js/validaciones.js" type="text/javascript"></script>
+  
 </html>
